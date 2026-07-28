@@ -91,6 +91,22 @@ h1 {
   font-weight: 680;
 }
 
+.profile-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 210px;
+  align-items: start;
+  gap: 3rem;
+}
+
+.profile-photo {
+  width: 210px;
+  aspect-ratio: 1;
+  margin-top: 0.25rem;
+  border-radius: 1rem;
+  object-fit: cover;
+  object-position: 43% 72%;
+}
+
 .nickname {
   color: var(--muted);
   font-weight: 480;
@@ -178,6 +194,16 @@ footer {
 
   main {
     padding-top: 3rem;
+  }
+
+  .profile-hero {
+    grid-template-columns: 1fr;
+    gap: 1.75rem;
+  }
+
+  .profile-photo {
+    width: min(72vw, 280px);
+    grid-row: 1;
   }
 
   .entry {
