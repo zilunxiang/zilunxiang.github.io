@@ -100,6 +100,7 @@ h1 {
 
 .profile-photo {
   width: 210px;
+  height: 210px;
   aspect-ratio: 1;
   margin-top: 0.25rem;
   border-radius: 1rem;
@@ -203,6 +204,7 @@ footer {
 
   .profile-photo {
     width: min(72vw, 280px);
+    height: min(72vw, 280px);
     grid-row: 1;
   }
 
