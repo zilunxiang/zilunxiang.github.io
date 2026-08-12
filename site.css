@@ -98,6 +98,18 @@ h1 {
   gap: 3rem;
 }
 
+.profile-hero h1 {
+  margin-bottom: 0.35rem;
+}
+
+.chinese-name {
+  margin: 0 0 1.4rem;
+  color: var(--muted);
+  font-size: 1.3rem;
+  font-weight: 520;
+  letter-spacing: 0.12em;
+}
+
 .profile-photo {
   width: 210px;
   height: 210px;
